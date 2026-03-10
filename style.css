@@ -1,0 +1,68 @@
+.container{
+    
+    box-sizing: border-box;
+    border-radius: 25px;
+    
+    border: 2px solid;
+    border-color: red;
+    background-color: aqua;
+    width: 400px;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top: 15%;  
+    
+}
+.inputcontainer :nth-child(1){
+        height: 4vh;
+        background-color: rgba(197, 255, 127, 0.268);
+        color: black;
+
+}
+.inputcontainer :nth-child(2){
+        height: 4.2vh;
+        background-color: red;
+        color: white;
+         cursor: pointer;
+}
+.inputcontainer :nth-child(2):hover{
+    background-color: rgb(106, 0, 255);
+}
+.dolist{
+    color: black(255, 247, 0);
+    
+}
+li {
+  display: flex;              /* place text + button in one row */
+  justify-content: space-between; /* push them apart */
+  align-items: center;        /* vertically center */
+  padding: 8px;
+  position: relative;
+  
+}
+li span {
+  flex: 1;   /* text takes remaining space */
+  word-break: break-word; /* so long words wrap instead of pushing button */
+}
+li.completed{
+    text-decoration: line-through;;
+    opacity: 0.7;
+}
+li button{
+    background-color: red;
+    border: none;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 2px;
+   
+  
+             
+  
+
+    
+}
+li button:hover{
+    background-color: rgb(106, 0, 255);
+}
